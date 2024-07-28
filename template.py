@@ -1,13 +1,10 @@
 import os
 from pathlib import Path
 
-package_name = "mongodb_connect"
 
 list_of_files = [
    ".github/workflows/ci.yaml",
    "src/__init__.py",
-   f"src/{package_name}/__init__.py", 
-   f"src/{package_name}/mongo_crud.py", 
    "tests/__init__.py",
    "tests/unit/__init__.py",
    "tests/integration/__init__.py",
